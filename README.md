@@ -35,7 +35,7 @@ sudo python3 setup.py install # Ubuntu 14.04+, GDB uses Python3
 ```
 ### Requirements
 
-Install Python packages from [requirements](../blob/master/requirements.txt)
+Install Python packages from [requirements](../master/requirements.txt)
 ```
 sudo pip install -Ur requirements.txt --user
 ```
@@ -46,7 +46,7 @@ You may get the following warning messages if you're running Ubuntu and Python 2
 /usr/local/lib/python2.7/dist-packages/pip/_vendor/urllib3/util/ssl_.py:160: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
   InsecurePlatformWarning
 ```
-Since,they're just warnings you can ignore them for now. Or look into the following solutions to fix: [1](https://stackoverflow.com/questions/29134512/insecureplatformwarning-a-true-sslcontext-object-is-not-available-this-prevent)[2](https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings)
+Since they're just warnings you can ignore them for now. Or look into the following solutions to fix: [1](https://stackoverflow.com/questions/29134512/insecureplatformwarning-a-true-sslcontext-object-is-not-available-this-prevent), [2](https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings)
 
 
 References:
